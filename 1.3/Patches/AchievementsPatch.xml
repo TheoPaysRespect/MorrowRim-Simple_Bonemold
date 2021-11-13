@@ -23,7 +23,7 @@
 						<!-- Building -->
 						
 						<AchievementsExpanded.AchievementDef>
-							<defName>ESCP_AchievementBuildOutOfBonemold</defName>
+							<defName>ESCP_AchievementBonemoldBuilder</defName>
 							<label>Working With What You Have</label>
 							<description>Build something out of bonemold five times</description>
 							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
@@ -33,7 +33,7 @@
 								<count>5</count>
 							</tracker>
 
-							<texPath>Achievements/ESCP_AchievementBuildOutOfBonemold</texPath>
+							<texPath>Achievements/ESCP_AchievementBonemoldBuilder</texPath>
 							<points>10</points>
 						</AchievementsExpanded.AchievementDef>
 
