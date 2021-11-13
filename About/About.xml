@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>MorrowRim - Simple Bonemold</name>
+	<packageId>SirMashedPotato.MorrowRim.SimpleBonemold</packageId>
+	<author>SirMashedPotato</author>
+	<supportedVersions>
+    	<li>1.3</li>
+	</supportedVersions>
+	<description>A simple mod that just adds in craftable bonemold, as in the resource item, not armour.\n\n-Requires either Rim of Madness Bones or Medieval Overhaul, otherwise you can't craft it.\n\n-Supports Vanilla Achievements Expanded.\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios\n-Preview image template by Theyn_T.
+	</description>
+	<modDependencies>
+
+    </modDependencies>
+	<loadAfter>
+	  <li>Ludeon.RimWorld.Ideology</li>
+	  <li>Ludeon.RimWorld.Royalty</li>
+	  <li>vanillaexpanded.achievements</li>
+	  <li>SirMashedPotato.MorrowRim</li>
+	  <li>Ssihv.rombones</li>
+	  <li>DankPyon.Medieval.Overhaul</li>
+    </loadAfter>
+	<loadBefore>
+		<li>Articanical.ExtraWallsAndFloors</li>
+	</loadBefore>
+	<incompatibleWith>
+      <li>SirMashedPotato.MorrowRim.DunmerRace</li>
+      <li>SirMashedPotato.MorrowRim.DunmerFactions</li>
+    </incompatibleWith>
+
+</ModMetaData>
