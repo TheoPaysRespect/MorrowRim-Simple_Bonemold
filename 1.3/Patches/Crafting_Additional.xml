@@ -64,6 +64,7 @@
 										</products>
 										<recipeUsers>
 											<li>TableButcher</li>
+											<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Workbench</li>
 										</recipeUsers>
 										<researchPrerequisite>ESCP_DunmerBonemoldCreation</researchPrerequisite>
 									</RecipeDef>
