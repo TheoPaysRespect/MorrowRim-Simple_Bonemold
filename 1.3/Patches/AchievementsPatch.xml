@@ -26,7 +26,7 @@
 							<defName>ESCP_AchievementBonemoldBuilder</defName>
 							<label>Working With What You Have</label>
 							<description>Build something out of bonemold five times</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer_Bonemold</bgtexPath>
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.BuildingTracker">
 								<madeFrom>ESCP_BonemoldItem</madeFrom>
@@ -43,7 +43,7 @@
 							<defName>ESCP_AchievementBonemoldCrafter</defName>
 							<label>Bonemold Crafter</label>
 							<description>Craft bonemold 50 times</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer_Bonemold</bgtexPath>
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.ItemCraftTracker">
 								<def>ESCP_BonemoldItem</def>
@@ -62,7 +62,7 @@
 							<defName>ESCP_AchievementBonemoldCollector</defName>
 							<label>Bonemold Collector</label>
 							<description>Obtain 500 vessels of bonemold</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer_Bonemold</bgtexPath>
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.ItemTracker">
 								<def>ESCP_BonemoldItem</def>
@@ -81,7 +81,7 @@
 							<defName>ESCP_AchievementBonemoldResearcher</defName>
 							<label>Bonemold For Dummies</label>
 							<description>Research bonemold creation</description>
-							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer</bgtexPath>
+							<bgtexPath>Achievements/ESCP_AchievementBackgroundDunmer_Bonemold</bgtexPath>
 							<tab>ESCP_AchievementsTab</tab>
 							<tracker Class="AchievementsExpanded.ResearchTracker">
 								<def>ESCP_DunmerBonemoldCreation</def>
