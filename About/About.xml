@@ -18,6 +18,8 @@
 	  <li>SirMashedPotato.MorrowRim</li>
 	  <li>Ssihv.rombones</li>
 	  <li>DankPyon.Medieval.Overhaul</li>
+	  <li>SirMashedPotato.InsectsHaveChitin</li>
+	  <li>Neronix17.Outland.Core</li>
     </loadAfter>
 	<loadBefore>
 		<li>Articanical.ExtraWallsAndFloors</li>

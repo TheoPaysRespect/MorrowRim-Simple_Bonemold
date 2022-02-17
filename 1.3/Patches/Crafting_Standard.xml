@@ -3,8 +3,12 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
+			<!-- Bone -->
 			<li>Rim of Madness - Bones</li>
 			<li>Medieval Overhaul</li>
+			<li>[O21] Outland - Core</li>
+			<!-- Chitin -->
+			<li>Insects have chitin</li>
 		</mods> 
 				
 		<match Class="PatchOperationSequence">
@@ -16,7 +20,7 @@
 						<RecipeDef>
 							<defName>ESCP_CraftBonemold</defName>
 							<label>make bonemold</label>
-							<description>Make 20 bonemold from 20 bone.</description>
+							<description>Make 20 bonemold from 20 bone or chitin.</description>
 							<jobString>Making bonemold.</jobString>
 							<workAmount>800</workAmount>
 							<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -29,6 +33,8 @@
 								  <thingDefs>
 									<li MayRequire="sihv.rombones">BoneItem</li>
 									<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
+									<li MayRequire="Neronix17.Outland.Core">Outland_Bones</li>
+									<li MayRequire="SirMashedPotato.InsectsHaveChitin">InsectChitin</li>
 								  </thingDefs>
 								</filter>
 								<count>20</count>
@@ -38,6 +44,8 @@
 							  <thingDefs>
 								<li MayRequire="sihv.rombones">BoneItem</li>
 								<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
+								<li MayRequire="Neronix17.Outland.Core">Outland_Bones</li>
+								<li MayRequire="SirMashedPotato.InsectsHaveChitin">InsectChitin</li>
 							  </thingDefs>
 							</fixedIngredientFilter>
 							<products>
