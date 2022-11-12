@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>MorrowRim</li>
-		</mods> 
-				
+		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
-			
 				<li Class="PatchOperationFindMod">
 					<mods>
 						<li>Rim of Madness - Bones</li>
 						<li>Medieval Overhaul</li>
 						<li>[O21] Outland - Core</li>
 						<li>Insects have chitin</li>
-					</mods> 
-							
+					</mods>
 					<match Class="PatchOperationSequence">
 						<operations>
-							
-							<li Class="PatchOperationAdd"> 
-								<xpath>/Defs</xpath>
+							<li Class="PatchOperationAdd">
+								<xpath>Defs</xpath>
 								<value>
 									<RecipeDef>
 										<defName>ESCP_CraftBonemold_Additional</defName>
@@ -34,43 +29,45 @@
 										<effectWorking>Cremate</effectWorking>
 										<soundWorking>Recipe_Cremate</soundWorking>
 										<ingredients>
-										  <li>
-											<filter>
-											  <thingDefs>
+											<li>
+												<filter>
+													<thingDefs>
+														<li MayRequire="sihv.rombones">BoneItem</li>
+														<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
+														<li MayRequire="Neronix17.Outland.Core">Outland_Bones</li>
+														<li MayRequire="SirMashedPotato.InsectsHaveChitin">InsectChitin</li>
+													</thingDefs>
+												</filter>
+												<count>20</count>
+											</li>
+											<li>
+												<filter>
+													<thingDefs>
+														<li>MorrowRim_ShalkResin</li>
+														<li>MorrowRim_PlantResin</li>
+													</thingDefs>
+												</filter>
+												<count>20</count>
+											</li>
+										</ingredients>
+										<fixedIngredientFilter>
+											<thingDefs>
 												<li MayRequire="sihv.rombones">BoneItem</li>
 												<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
 												<li MayRequire="Neronix17.Outland.Core">Outland_Bones</li>
 												<li MayRequire="SirMashedPotato.InsectsHaveChitin">InsectChitin</li>
-											  </thingDefs>
-											</filter>
-											<count>20</count>
-										  </li>
-										  <li>
-											<filter>
-											  <thingDefs>
 												<li>MorrowRim_ShalkResin</li>
 												<li>MorrowRim_PlantResin</li>
-											  </thingDefs>
-											</filter>
-											<count>20</count>
-										  </li>
-										</ingredients>
-										<fixedIngredientFilter>
-										  <thingDefs>
-											<li MayRequire="sihv.rombones">BoneItem</li>
-											<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
-											<li MayRequire="Neronix17.Outland.Core">Outland_Bones</li>
-											<li MayRequire="SirMashedPotato.InsectsHaveChitin">InsectChitin</li>
-											<li>MorrowRim_ShalkResin</li>
-											<li>MorrowRim_PlantResin</li>
-										  </thingDefs>
+											</thingDefs>
 										</fixedIngredientFilter>
 										<products>
-										  <ESCP_BonemoldItem>50</ESCP_BonemoldItem>
+											<ESCP_BonemoldItem>50</ESCP_BonemoldItem>
 										</products>
 										<recipeUsers>
 											<li>TableButcher</li>
 											<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Workbench</li>
+											<li MayRequire="SirMashedPotato.MorrowRim.DunmerArmouryLite">MorrowRim_Dunmer_DunmerForgeFuelled</li>
+											<li MayRequire="SirMashedPotato.MorrowRim.DunmerArmouryLite">MorrowRim_Dunmer_DunmerForgeElectric</li>
 										</recipeUsers>
 										<researchPrerequisite>ESCP_DunmerBonemoldCreation</researchPrerequisite>
 									</RecipeDef>
@@ -82,6 +79,5 @@
 			</operations>
 		</match>
 	</Operation>
-	
 </Patch>
 
