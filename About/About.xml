@@ -3,31 +3,22 @@
 	<name>MorrowRim - Simple Bonemold</name>
 	<packageId>SirMashedPotato.MorrowRim.SimpleBonemold</packageId>
 	<author>SirMashedPotato</author>
+	<modVersion IgnoreIfNoMatchingField="True">1.0.8</modVersion>
 	<supportedVersions>
-    	<li>1.3</li>
-    	<li>1.4</li>
+		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<description>A simple mod that just adds in craftable bonemold, as in the resource item, not armour. Also includes craftable bonemold blocks, and an assortment of bonemold floors.\n\n-Requires either Rim of Madness Bones or Medieval Overhaul, otherwise you can't craft it.\n\n-Supports Vanilla Achievements Expanded.\n-Contains a patch for Royalty, adding in an additional floor.\n-Contains a patch for Ideology, adding in some additional floors.\n-Contains a patch for VEI - Memes and Structures, adding in some additional floors.\n\n-Based on the 'Elder Scrolls' series by Bethesda Game Studios\n-Preview image template by Theyn_T.
 	</description>
-	<modDependencies>
-
-    </modDependencies>
 	<loadAfter>
-	  <li>Ludeon.RimWorld.Ideology</li>
-	  <li>Ludeon.RimWorld.Royalty</li>
-	  <li>vanillaexpanded.achievements</li>
-	  <li>SirMashedPotato.MorrowRim</li>
-	  <li>Ssihv.rombones</li>
-	  <li>DankPyon.Medieval.Overhaul</li>
-	  <li>SirMashedPotato.InsectsHaveChitin</li>
-	  <li>Neronix17.Outland.Core</li>
-    </loadAfter>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+	</loadAfter>
 	<loadBefore>
 		<li>Articanical.ExtraWallsAndFloors</li>
 	</loadBefore>
 	<incompatibleWith>
-      <li>SirMashedPotato.MorrowRim.DunmerRace</li>
-      <li>SirMashedPotato.MorrowRim.DunmerFactions</li>
-    </incompatibleWith>
-
+		<li>SirMashedPotato.MorrowRim.DunmerRace</li>
+		<li>SirMashedPotato.MorrowRim.DunmerFactions</li>
+	</incompatibleWith>
 </ModMetaData>
