@@ -53,6 +53,7 @@
 		</products>
 		<recipeUsers>
 			<li>TableButcher</li>
+			<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_ButchersBlock</li>
 			<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Workbench</li>
 			<li MayRequire="SirMashedPotato.MorrowRim.DunmerArmouryLite">MorrowRim_Dunmer_DunmerForgeFuelled</li>
 			<li MayRequire="SirMashedPotato.MorrowRim.DunmerArmouryLite">MorrowRim_Dunmer_DunmerForgeElectric</li>
@@ -72,6 +73,7 @@
 						<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_ShalkResin</li>
 						<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_PlantResin</li>
 						<li>Chemfuel</li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar<li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -82,11 +84,13 @@
 				<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_ShalkResin</li>
 				<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_PlantResin</li>
 				<li>Chemfuel</li>
+				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar<li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<disallowedThingDefs>
 				<li>Chemfuel</li>
+				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar<li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<products Inherit="False">
