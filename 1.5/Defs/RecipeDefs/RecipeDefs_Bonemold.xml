@@ -33,10 +33,9 @@
 				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Bone</li>
 				<li MayRequire="Neronix17.Outland.Core">Outland_Bones</li>
 				<li MayRequire="SirMashedPotato.InsectsHaveChitin">InsectChitin</li>
-				<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_SiltStriderChitin</li>
+				<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_StriderChitin</li>
 				<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_NixOxChitin</li>
 				<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_ShalkChitin</li>
-				<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_StriderChitin</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
@@ -44,7 +43,6 @@
 				<li>Root</li>
 			</categories>
 			<disallowedThingDefs>
-				<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_SiltStriderChitin</li>
 				<li MayRequire="sirmashedpotato.ashlands">Mashed_Ashlands_StriderChitin</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
