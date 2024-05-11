@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>MorrowRim - Simple Bonemold</name>
 	<packageId>ESCP.MorrowRim.SimpleBonemold</packageId>
-	<author>SirMashedPotato</author>
+	<author>ESCP</author>
 	<modVersion IgnoreIfNoMatchingField="True">1.0.8</modVersion>
 	<supportedVersions>
 		<li>1.5</li>
