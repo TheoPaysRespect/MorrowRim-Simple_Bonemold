@@ -64,16 +64,14 @@
 	<RecipeDef ParentName="ESCP_CraftBonemoldBase">
 		<defName>ESCP_CraftBonemold_Additional</defName>
 		<label>make bonemold efficiently</label>
-		<description>Make 50 bonemold from 20 bone or chitin, and 20 resin or chemfuel.</description>
+		<description>Make 50 bonemold from 20 bone or chitin, and chemfuel.</description>
 		<workAmount>800</workAmount>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_ShalkResin</li>
-						<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_PlantResin</li>
 						<li>Chemfuel</li>
-						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar<li>
+						<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar</li>
 					</thingDefs>
 				</filter>
 				<count>20</count>
@@ -81,16 +79,14 @@
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_ShalkResin</li>
-				<li MayRequire="sirmashedpotato.morrowrim">MorrowRim_PlantResin</li>
 				<li>Chemfuel</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar<li>
+				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<defaultIngredientFilter>
 			<disallowedThingDefs>
 				<li>Chemfuel</li>
-				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar<li>
+				<li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Tar</li>
 			</disallowedThingDefs>
 		</defaultIngredientFilter>
 		<products Inherit="False">
